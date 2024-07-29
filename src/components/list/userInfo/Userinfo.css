@@ -1,0 +1,45 @@
+.Userinfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logout{
+        background-color: blue;
+        border-radius: 15px;
+        font-weight: bold;
+        height: 35px;
+        width: 90px;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: red;
+        }
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+    }
+    .icons{
+        display: flex;
+        gap: 20px;
+
+
+        img{
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+
+        }
+    }
+}
